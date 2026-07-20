@@ -25,6 +25,7 @@ RAW_DIR = DATA_DIR / "raw"
 CLEAN_DIR = DATA_DIR / "clean"
 REPORTS_DIR = DATA_DIR / "reports"
 MODELS_DIR = REPO_ROOT / "models"
+DB_PATH = DATA_DIR / "switchboard.duckdb"
 
 
 def get_app_token():
