@@ -1,0 +1,19 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Data (raw pulls are reproducible from the API, so they are not committed)
+data/raw/*
+!data/raw/.gitkeep
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
