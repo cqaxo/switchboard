@@ -15,6 +15,10 @@ data/raw/*
 data/clean/*
 data/reports/*
 
+# Models
+models/*
+!models/.gitkeep
+
 # OS and editor
 .DS_Store
 .idea/
