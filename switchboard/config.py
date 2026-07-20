@@ -24,6 +24,7 @@ DATA_DIR = REPO_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
 CLEAN_DIR = DATA_DIR / "clean"
 REPORTS_DIR = DATA_DIR / "reports"
+MODELS_DIR = REPO_ROOT / "models"
 
 
 def get_app_token():
