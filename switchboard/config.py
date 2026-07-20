@@ -22,6 +22,8 @@ DATASET_ENDPOINT = f"https://{DOMAIN}/resource/{DATASET_ID}.json"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 RAW_DIR = DATA_DIR / "raw"
+CLEAN_DIR = DATA_DIR / "clean"
+REPORTS_DIR = DATA_DIR / "reports"
 
 
 def get_app_token():
